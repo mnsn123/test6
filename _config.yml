@@ -1,0 +1,37 @@
+title: "test 2"
+url: "https://monsoonmalabar.com/test6"
+email: "justinechacko1@gmail.com"
+markdown: kramdown
+mobile: "919961555760"
+country: "India"
+currency_code: "INR"
+paypal_email: ""
+razorpay_key: "rzp_live_1vs8SzfbPyOPH1"
+location: "12.0407574,75.4044261"
+sass:
+  sass_dir: _sass
+  style: compressed
+collections:
+  products:
+    output: true
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: product
+  - scope:
+      type: products
+    values:
+      layout: post
+plugins_dir:
+  - jekyll-sitemap
+  - jekyll-paginate
+encoding: UTF-8
+permalink: /products/:title/
+paginate: 10
+paginate_path: 'page/:num/'
+favicon: "https://i.imgur.com/sscxwyv.png"
+paypal: 
+fb_appid: "494525305893363"
+analytics: 
+adsense: 
